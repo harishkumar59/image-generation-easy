@@ -1,6 +1,6 @@
 async function generateImage() {
     const prompt = document.getElementById('prompt').value;
-    const apiKey = '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'; // Replace with your actual API key
+    const apiKey = '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'; // Replace with your actual API key
     const url = 'https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-dev';
     
     document.getElementById('loading').classList.remove('hidden');
